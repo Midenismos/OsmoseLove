@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 06/11/20 16:58:15
+=======
+﻿Log file open, 06/11/20 17:29:21
+>>>>>>> 780d8d7e5c3f28f3f8fb1e9c018d539965d3efa1
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,10 +12,15 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: Osmose
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 2.544319
+=======
+LogTaskGraph: Started task graph with 5 named threads and 83 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.097984
+>>>>>>> 780d8d7e5c3f28f3f8fb1e9c018d539965d3efa1
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
-LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin AISupport
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -130,7 +139,11 @@ LogInit: Build: ++UE4+Release-4.24-CL-11590370
 LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
 LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
 LogInit: Net CL: 10570792
+<<<<<<< HEAD
 LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 1060 6GB
+=======
+LogInit: OS: Windows 10 (Release 1809) (), CPU: AMD Ryzen Threadripper 2990WX 32-Core Processor, GPU: NVIDIA TITAN X (Pascal)
+>>>>>>> 780d8d7e5c3f28f3f8fb1e9c018d539965d3efa1
 LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
@@ -168,6 +181,7 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2020.06.11-14.58.20:000][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.06.11-14.58.20:000][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2020.06.11-14.58.20:001][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/OsmoseGraverdanslaroche/Saved/Config/Windows/Engine.ini]
@@ -11370,3 +11384,1015 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.11-16.45.42:440][450]LogD3D11RHI: CleanupD3DDevice
 [2020.06.11-16.45.42:539][450]LogExit: Exiting.
 [2020.06.11-16.45.42:642][450]Log file closed, 06/11/20 18:45:42
+=======
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Engine.ini]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Engine.ini]
+[2020.06.11-16.29.22:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Engine.ini]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Engine.ini]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.11-16.29.22:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Engine.ini]
+[2020.06.11-16.29.22:049][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Engine.ini]
+[2020.06.11-16.29.22:054][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.11-16.29.22:054][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.11-16.29.22:055][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.11-16.29.22:055][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.11-16.29.22:055][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.11-16.29.22:061][  0]LogHAL: Display: Platform has ~ 128 GB [137303719936 / 137438953472 / 128], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.11-16.29.22:061][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.11-16.29.22:061][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.11-16.29.22:061][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.06.11-16.29.22:062][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Theo droulez ressources/OsmoseLOVE/Saved/Config/Windows/Engine.ini]
+[2020.06.11-16.29.22:062][  0]LogInit: Computer: M-WKS-018
+[2020.06.11-16.29.22:062][  0]LogInit: User: theodroulez
+[2020.06.11-16.29.22:062][  0]LogInit: CPU Page size=4096, Cores=32
+[2020.06.11-16.29.22:063][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.11-16.29.22:063][  0]LogMemory: Memory total: Physical=127.9GB (128GB approx)
+[2020.06.11-16.29.22:063][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.11-16.29.22:063][  0]LogMemory: Process Physical Memory: 113.04 MB used, 113.04 MB peak
+[2020.06.11-16.29.22:063][  0]LogMemory: Process Virtual Memory: 112.63 MB used, 112.63 MB peak
+[2020.06.11-16.29.22:063][  0]LogMemory: Physical Memory: 15262.87 MB used,  115680.16 MB free, 130943.03 MB total
+[2020.06.11-16.29.22:063][  0]LogMemory: Virtual Memory: 5265.20 MB used,  134212464.00 MB free, 134217728.00 MB total
+[2020.06.11-16.29.22:069][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.11-16.29.22:125][  0]LogInit: Using OS detected language (fr-FR).
+[2020.06.11-16.29.22:125][  0]LogInit: Using OS detected locale (fr-FR).
+[2020.06.11-16.29.22:126][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2020.06.11-16.29.22:126][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2020.06.11-16.29.22:127][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2020.06.11-16.29.22:127][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2020.06.11-16.29.22:127][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2020.06.11-16.29.22:127][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2020.06.11-16.29.22:128][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2020.06.11-16.29.22:128][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2020.06.11-16.29.22:129][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.11-16.29.22:187][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.11-16.29.22:187][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.11-16.29.22:563][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.11-16.29.22:563][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.11-16.29.22:563][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.11-16.29.22:650][  0]LogD3D11RHI:    0. 'NVIDIA TITAN X (Pascal)' (Feature Level 11_0)
+[2020.06.11-16.29.22:650][  0]LogD3D11RHI:       12147/0/65471 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.06.11-16.29.22:653][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.11-16.29.22:653][  0]LogD3D11RHI:       0/0/65471 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.11-16.29.22:653][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.11-16.29.22:671][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.11-16.29.22:672][  0]LogD3D11RHI:     GPU DeviceId: 0x1b00 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.11-16.29.22:672][  0]LogWindows: EnumDisplayDevices:
+[2020.06.11-16.29.22:672][  0]LogWindows:    0. 'NVIDIA TITAN X (Pascal)' (P:1 D:1)
+[2020.06.11-16.29.22:672][  0]LogWindows:    1. 'NVIDIA TITAN X (Pascal)' (P:0 D:1)
+[2020.06.11-16.29.22:673][  0]LogWindows:    2. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
+[2020.06.11-16.29.22:674][  0]LogWindows:    3. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
+[2020.06.11-16.29.22:674][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.06.11-16.29.22:674][  0]LogD3D11RHI:     Adapter Name: NVIDIA TITAN X (Pascal)
+[2020.06.11-16.29.22:674][  0]LogD3D11RHI:   Driver Version: 442.50 (internal:26.21.14.4250, unified:442.50)
+[2020.06.11-16.29.22:674][  0]LogD3D11RHI:      Driver Date: 2-24-2020
+[2020.06.11-16.29.22:674][  0]LogRHI: Texture pool is 8502 MB (70% of 12147 MB)
+[2020.06.11-16.29.22:740][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.06.11-16.29.22:740][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.11-16.29.22:783][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.06.11-16.29.23:154][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.11-16.29.23:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.11-16.29.23:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.11-16.29.23:214][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.11-16.29.23:214][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.11-16.29.23:223][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.11-16.29.23:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.11-16.29.23:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.11-16.29.23:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.11-16.29.23:257][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.11-16.29.23:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.11-16.29.23:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.11-16.29.23:295][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.11-16.29.23:311][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.11-16.29.23:311][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.11-16.29.23:320][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.11-16.29.23:329][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.11-16.29.23:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.11-16.29.23:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.11-16.29.23:345][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.11-16.29.23:352][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.11-16.29.23:390][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Theo droulez ressources/OsmoseLOVE/Intermediate/Shaders/WorkingDirectory/36464/).
+[2020.06.11-16.29.23:390][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/theo.droulez/AppData/Local/Temp/UnrealShaderWorkingDir/FB7E2D2F4F0054E8464797BF48593E9C/'.
+[2020.06.11-16.29.23:391][  0]LogXGEController: Cleaning working directory: C:/Users/theo.droulez/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.06.11-16.29.23:391][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.11-16.29.23:391][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.11-16.29.23:391][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.11-16.29.24:169][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.11-16.29.24:223][  0]LogDerivedDataCache: Loaded boot cache 0.05s 80MB C:/Users/theo.droulez/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.11-16.29.24:223][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/theo.droulez/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.06.11-16.29.24:223][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Theo droulez ressources/OsmoseLOVE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.11-16.29.24:223][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.11-16.29.24:223][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Theo droulez ressources/OsmoseLOVE/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.11-16.29.24:223][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.11-16.29.24:234][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.11-16.29.24:234][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.11-16.29.24:234][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.11-16.29.24:237][  0]LogDerivedDataCache: Using Local data cache path C:/Users/theo.droulez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.11-16.29.24:237][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.11-16.29.24:237][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.11-16.29.24:263][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.11-16.29.24:266][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.11-16.29.24:267][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.11-16.29.24:362][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
+[2020.06.11-16.29.24:682][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.11-16.29.24:863][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.11-16.29.24:863][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.11-16.29.24:863][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.11-16.29.24:863][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.11-16.29.24:863][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.11-16.29.24:879][  0]LogNetVersion: Osmose 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 389872372)
+[2020.06.11-16.29.26:472][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 1 prioritized culture(s) in 0.070149 seconds
+[2020.06.11-16.29.26:479][  0]LogUObjectArray: 46123 objects as part of root set at end of initial load.
+[2020.06.11-16.29.26:479][  0]LogUObjectAllocator: 8035544 out of 0 bytes used by permanent object pool.
+[2020.06.11-16.29.26:479][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.11-16.29.27:043][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.11-16.29.27:048][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.11-16.29.27:126][  0]SourceControl: Source control is disabled
+[2020.06.11-16.29.27:126][  0]SourceControl: Source control is disabled
+[2020.06.11-16.29.27:128][  0]SourceControl: Source control is disabled
+[2020.06.11-16.29.27:130][  0]SourceControl: Source control is disabled
+[2020.06.11-16.29.27:131][  0]SourceControl: Source control is disabled
+[2020.06.11-16.29.28:238][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.11-16.29.28:254][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.11-16.29.28:254][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.11-16.29.28:362][  0]LogEngine: Initializing Engine...
+[2020.06.11-16.29.28:363][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.11-16.29.28:737][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.11-16.29.28:744][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.11-16.29.28:760][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.11-16.29.28:760][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.11-16.29.28:760][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.11-16.29.28:760][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.11-16.29.28:760][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.11-16.29.28:760][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.11-16.29.28:760][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.11-16.29.28:760][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.11-16.29.28:761][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.11-16.29.28:761][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.11-16.29.28:785][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.11-16.29.28:785][  0]LogAudioMixer: Display: Name: Digital Audio (S/PDIF) (High Definition Audio Device)
+[2020.06.11-16.29.28:785][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.06.11-16.29.28:785][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.11-16.29.28:785][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.11-16.29.28:785][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.11-16.29.28:785][  0]LogAudioMixer: Display: Channel Order:
+[2020.06.11-16.29.28:785][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.11-16.29.28:785][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.11-16.29.28:810][  0]LogAudioMixer: Display: Using Audio Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2020.06.11-16.29.28:813][  0]LogInit: FAudioDevice initialized.
+[2020.06.11-16.29.28:813][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.11-16.29.28:882][  0]LogDerivedDataCache: Saved boot cache 0.07s 80MB C:/Users/theo.droulez/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.11-16.29.28:886][  0]LogInit: Texture streaming: Enabled
+[2020.06.11-16.29.28:903][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.11-16.29.28:903][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.11-16.29.28:914][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.11-16.29.29:021][  0]LogInit: Transaction tracking system initialized
+[2020.06.11-16.29.29:036][  0]BlueprintLog: New page: Editor Load
+[2020.06.11-16.29.29:085][  0]LocalizationService: Localization service is disabled
+[2020.06.11-16.29.29:428][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.11-16.29.29:428][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.11-16.29.29:587][  0]LogFileCache: Scanning file cache for directory 'D:/Theo droulez ressources/OsmoseLOVE/Content/' took 0.02s
+[2020.06.11-16.29.29:587][  0]SourceControl: Source control is disabled
+[2020.06.11-16.29.29:587][  0]Cmd: MAP LOAD FILE="D:/Theo droulez ressources/OsmoseLOVE/Content/_Osmose/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.11-16.29.29:588][  0]LightingResults: New page: Lighting Build
+[2020.06.11-16.29.29:588][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.11-16.29.29:588][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.11-16.29.29:589][  0]MapCheck: New page: Map Check
+[2020.06.11-16.29.29:589][  0]LightingResults: New page: Lighting Build
+[2020.06.11-16.29.29:645][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.06.11-16.29.30:951][  0]LogStaticMesh: Building static mesh OldTjikko_Trunk_Tjikko...
+[2020.06.11-16.29.31:067][  0]LogStaticMesh: Built static mesh [0.12s] /Game/_Osmose/Model_Animation/Interact/Environment/OldTjikko/OldTjikko_Trunk_Tjikko.OldTjikko_Trunk_Tjikko
+[2020.06.11-16.29.31:070][  0]LogStaticMesh: Building static mesh OldTjikko_Leaves_Tjikko...
+[2020.06.11-16.29.31:082][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Osmose/Model_Animation/Interact/Environment/OldTjikko/OldTjikko_Leaves_Tjikko.OldTjikko_Leaves_Tjikko
+[2020.06.11-16.29.31:089][  0]LogMaterial: Display: Missing cached shader map for material DarkBrown, compiling. 
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 24
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 23
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 22
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 21
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 20
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 19
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 18
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 17
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 16
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 15
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 14
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 13
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (13/61): shaders left to compile 12
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (14/61): shaders left to compile 11
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (15/61): shaders left to compile 10
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (16/61): shaders left to compile 9
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (17/61): shaders left to compile 8
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (18/61): shaders left to compile 7
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (19/61): shaders left to compile 6
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (20/61): shaders left to compile 5
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (21/61): shaders left to compile 4
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (22/61): shaders left to compile 3
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (23/61): shaders left to compile 2
+[2020.06.11-16.29.31:263][  0]LogShaderCompilers: Display: Worker (24/61): shaders left to compile 1
+[2020.06.11-16.29.31:263][  0]LogMaterial: Display: Missing cached shader map for material Material__19, compiling. 
+[2020.06.11-16.29.31:276][  0]LogStaticMesh: Building static mesh Owl_Low...
+[2020.06.11-16.29.31:288][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Osmose/Model_Animation/Interact/Animal/Owl/Owl_Low.Owl_Low
+[2020.06.11-16.29.31:295][  0]LogMaterial: Display: Missing cached shader map for material M_OwlColorMesh, compiling. 
+[2020.06.11-16.29.31:392][  0]LogTemp: Display: Loading shader for Niagara script NiagaraScript /Game/_Osmose/VFX/NS_SplineWind.NS_SplineWind:OldSchool_spawner001_6.GPUComputeScript from DDC failed. Shader needs recompile.
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (25/61): shaders left to compile 60
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (26/61): shaders left to compile 59
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (27/61): shaders left to compile 58
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (28/61): shaders left to compile 57
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (29/61): shaders left to compile 56
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (30/61): shaders left to compile 55
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (31/61): shaders left to compile 54
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (32/61): shaders left to compile 53
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (33/61): shaders left to compile 52
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (34/61): shaders left to compile 51
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (35/61): shaders left to compile 50
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (36/61): shaders left to compile 49
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (37/61): shaders left to compile 48
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (38/61): shaders left to compile 47
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (39/61): shaders left to compile 46
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (40/61): shaders left to compile 45
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (41/61): shaders left to compile 44
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (42/61): shaders left to compile 43
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (43/61): shaders left to compile 42
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (44/61): shaders left to compile 41
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (45/61): shaders left to compile 40
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (46/61): shaders left to compile 39
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (47/61): shaders left to compile 38
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (48/61): shaders left to compile 37
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (49/61): shaders left to compile 36
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (50/61): shaders left to compile 35
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (51/61): shaders left to compile 34
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (52/61): shaders left to compile 33
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (53/61): shaders left to compile 32
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (54/61): shaders left to compile 31
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (55/61): shaders left to compile 30
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (56/61): shaders left to compile 29
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (57/61): shaders left to compile 28
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (58/61): shaders left to compile 27
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (59/61): shaders left to compile 26
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (60/61): shaders left to compile 25
+[2020.06.11-16.29.31:780][  0]LogShaderCompilers: Display: Worker (61/61): shaders left to compile 24
+[2020.06.11-16.29.31:780][  0]LogNiagaraEditor: Verbose: '/Game/_Osmose/VFX/NS_SplineWind' Precompile took 0.384388 sec.
+[2020.06.11-16.29.31:850][  0]LogMaterial: Display: Missing cached shader map for material SteleLight_Blue, compiling. 
+[2020.06.11-16.29.32:037][  0]LogStaticMesh: Building static mesh Plante_haticot_magique_...
+[2020.06.11-16.29.32:087][  0]LogStaticMesh: Built static mesh [0.05s] /Game/_Osmose/Model_Animation/Interact/Environment/Plant/Plante_haticot_magique_.Plante_haticot_magique_
+[2020.06.11-16.29.32:264][  0]LogStaticMesh: Building static mesh Calabash...
+[2020.06.11-16.29.32:294][  0]LogStaticMesh: Built static mesh [0.03s] /Game/_Osmose/Custom_Elements/CustomMesh/Calabash.Calabash
+[2020.06.11-16.29.32:536][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10025600-1-1-1-1-1 wave LizardWater...
+[2020.06.11-16.29.32:536][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/_Osmose/Sound/SFX/Lizard/LizardWater.LizardWater will be modified from 40 to 40.
+[2020.06.11-16.29.32:600][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 374494 while cooking SoundWave /Game/_Osmose/Sound/SFX/Lizard/LizardWater.LizardWater.
+[2020.06.11-16.29.32:917][  0]LogStaticMesh: Building static mesh Reed__1__Reed_Top...
+[2020.06.11-16.29.32:918][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Osmose/Model_Animation/Scenery/Reed/Reed__1__Reed_Top.Reed__1__Reed_Top
+[2020.06.11-16.29.32:923][  0]LogStaticMesh: Building static mesh Reed__1__Reed_Leaf_02...
+[2020.06.11-16.29.32:928][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Osmose/Model_Animation/Scenery/Reed/Reed__1__Reed_Leaf_02.Reed__1__Reed_Leaf_02
+[2020.06.11-16.29.32:932][  0]LogStaticMesh: Building static mesh Reed__1__Reed_Leaf_01...
+[2020.06.11-16.29.32:937][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Osmose/Model_Animation/Scenery/Reed/Reed__1__Reed_Leaf_01.Reed__1__Reed_Leaf_01
+[2020.06.11-16.29.32:942][  0]LogStaticMesh: Building static mesh Reed__1__Reed_Base...
+[2020.06.11-16.29.32:944][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Osmose/Model_Animation/Scenery/Reed/Reed__1__Reed_Base.Reed__1__Reed_Base
+[2020.06.11-16.29.32:947][  0]LogStaticMesh: Building static mesh Lilypads__1__Liliypad_02...
+[2020.06.11-16.29.32:949][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Osmose/Model_Animation/Scenery/Lilypad/Lilypads__1__Liliypad_02.Lilypads__1__Liliypad_02
+[2020.06.11-16.29.32:986][  0]LogStaticMesh: Building static mesh Water_tree_Trunk...
+[2020.06.11-16.29.32:997][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Osmose/Model_Animation/Interact/Environment/WaterTree/Water_tree_Trunk.Water_tree_Trunk
+[2020.06.11-16.29.33:006][  0]LogStaticMesh: Building static mesh Water_tree_Leaves_002...
+[2020.06.11-16.29.33:013][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Osmose/Model_Animation/Interact/Environment/WaterTree/Water_tree_Leaves_002.Water_tree_Leaves_002
+[2020.06.11-16.29.33:018][  0]LogStaticMesh: Building static mesh Water_tree_Leaves_001...
+[2020.06.11-16.29.33:025][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Osmose/Model_Animation/Interact/Environment/WaterTree/Water_tree_Leaves_001.Water_tree_Leaves_001
+[2020.06.11-16.29.33:185][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.06.11-16.29.33:241][  0]LogPhysics: Warning: Scale for /Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant_2.Leaf has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.06.11-16.29.33:241][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant_2.Leaf' 
+[2020.06.11-16.29.33:241][  0]LogPhysics: Warning: Scale for /Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant_2.Leaf1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.06.11-16.29.33:241][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant_2.Leaf1' 
+[2020.06.11-16.29.33:242][  0]LogPhysics: Warning: Scale for /Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant2.Leaf has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.06.11-16.29.33:242][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant2.Leaf' 
+[2020.06.11-16.29.33:242][  0]LogPhysics: Warning: Scale for /Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant2.Leaf1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.06.11-16.29.33:242][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant2.Leaf1' 
+[2020.06.11-16.29.33:322][  0]LogPhysics: Warning: Scale for /Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant_2.Leaf has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.06.11-16.29.33:322][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant_2.Leaf' 
+[2020.06.11-16.29.33:322][  0]LogPhysics: Warning: Scale for /Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant_2.Leaf has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.06.11-16.29.33:322][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant_2.Leaf' 
+[2020.06.11-16.29.33:322][  0]LogPhysics: Warning: Scale for /Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant_2.Leaf1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.06.11-16.29.33:322][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant_2.Leaf1' 
+[2020.06.11-16.29.33:322][  0]LogPhysics: Warning: Scale for /Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant_2.Leaf1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.06.11-16.29.33:322][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant_2.Leaf1' 
+[2020.06.11-16.29.33:324][  0]LogPhysics: Warning: Scale for /Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant2.Leaf has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.06.11-16.29.33:324][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant2.Leaf' 
+[2020.06.11-16.29.33:324][  0]LogPhysics: Warning: Scale for /Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant2.Leaf has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.06.11-16.29.33:324][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant2.Leaf' 
+[2020.06.11-16.29.33:324][  0]LogPhysics: Warning: Scale for /Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant2.Leaf1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.06.11-16.29.33:324][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant2.Leaf1' 
+[2020.06.11-16.29.33:324][  0]LogPhysics: Warning: Scale for /Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant2.Leaf1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.06.11-16.29.33:324][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/_Osmose/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Plant2.Leaf1' 
+[2020.06.11-16.29.33:359][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.11-16.29.33:466][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2020.06.11-16.29.33:467][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.11-16.29.33:467][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,113ms to complete.
+[2020.06.11-16.29.33:467][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.880
+[2020.06.11-16.29.34:027][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.11-16.29.34:058][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.11-16.29.34:083][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.11-16.29.34:094][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.11-16.29.34:147][  0]LogCollectionManager: Loaded 0 collections in 0.008352 seconds
+[2020.06.11-16.29.34:207][  0]LogFileCache: Scanning file cache for directory 'D:/Theo droulez ressources/OsmoseLOVE/Saved/Collections/' took 0.01s
+[2020.06.11-16.29.34:207][  0]LogFileCache: Scanning file cache for directory 'D:/Theo droulez ressources/OsmoseLOVE/Content/Developers/theodroulez/Collections/' took 0.01s
+[2020.06.11-16.29.34:207][  0]LogFileCache: Scanning file cache for directory 'D:/Theo droulez ressources/OsmoseLOVE/Content/Collections/' took 0.01s
+[2020.06.11-16.29.34:207][  0]LogContentBrowser: Native class hierarchy populated in 0.0203 seconds. Added 3159 classes and 740 folders.
+[2020.06.11-16.29.34:223][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2020.06.11-16.29.34:606][  0]LogShaderCompilers: Display: Worker (24/61): shaders left to compile 106
+[2020.06.11-16.29.34:606][  0]LogShaderCompilers: Display: Worker (40/61): shaders left to compile 104
+[2020.06.11-16.29.34:606][  0]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 102
+[2020.06.11-16.29.34:606][  0]LogShaderCompilers: Display: Worker (25/61): shaders left to compile 100
+[2020.06.11-16.29.34:606][  0]LogShaderCompilers: Display: Worker (39/61): shaders left to compile 98
+[2020.06.11-16.29.34:606][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.06.11-16.29.34:629][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 2 classes and 3 folders.
+[2020.06.11-16.29.35:300][  0]LogShaderCompilers: Display: Worker (44/61): shaders left to compile 96
+[2020.06.11-16.29.35:300][  0]LogShaderCompilers: Display: Worker (20/61): shaders left to compile 94
+[2020.06.11-16.29.35:300][  0]LogShaderCompilers: Display: Worker (41/61): shaders left to compile 92
+[2020.06.11-16.29.35:300][  0]LogShaderCompilers: Display: Worker (26/61): shaders left to compile 90
+[2020.06.11-16.29.35:300][  0]LogShaderCompilers: Display: Worker (56/61): shaders left to compile 88
+[2020.06.11-16.29.35:300][  0]LogShaderCompilers: Display: Worker (60/61): shaders left to compile 86
+[2020.06.11-16.29.35:300][  0]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 84
+[2020.06.11-16.29.35:300][  0]LogShaderCompilers: Display: Worker (32/61): shaders left to compile 82
+[2020.06.11-16.29.35:300][  0]LogShaderCompilers: Display: Worker (48/61): shaders left to compile 80
+[2020.06.11-16.29.35:300][  0]LogSlate: Took 0.001421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.11-16.29.35:305][  0]LogSlate: Took 0.001270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.11-16.29.35:318][  0]LogSlate: Took 0.001681 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 78
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 76
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (23/61): shaders left to compile 74
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (35/61): shaders left to compile 72
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (16/61): shaders left to compile 70
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (36/61): shaders left to compile 68
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (52/61): shaders left to compile 66
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 64
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (14/61): shaders left to compile 62
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 60
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (17/61): shaders left to compile 59
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (28/61): shaders left to compile 58
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (38/61): shaders left to compile 57
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (53/61): shaders left to compile 56
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (59/61): shaders left to compile 55
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (50/61): shaders left to compile 54
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (45/61): shaders left to compile 53
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 52
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (55/61): shaders left to compile 51
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (47/61): shaders left to compile 50
+[2020.06.11-16.29.36:265][  0]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 49
+[2020.06.11-16.29.36:266][  0]LogShaderCompilers: Display: Worker (24/61): shaders left to compile 48
+[2020.06.11-16.29.36:266][  0]LogShaderCompilers: Display: Worker (40/61): shaders left to compile 47
+[2020.06.11-16.29.36:266][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 46
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (61/61): shaders left to compile 45
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 44
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 43
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (34/61): shaders left to compile 42
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (42/61): shaders left to compile 41
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (15/61): shaders left to compile 40
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (30/61): shaders left to compile 39
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (58/61): shaders left to compile 38
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (21/61): shaders left to compile 37
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (46/61): shaders left to compile 36
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (48/61): shaders left to compile 35
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (54/61): shaders left to compile 34
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (22/61): shaders left to compile 33
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (29/61): shaders left to compile 32
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (32/61): shaders left to compile 31
+[2020.06.11-16.29.36:564][  0]LogShaderCompilers: Display: Worker (49/61): shaders left to compile 30
+[2020.06.11-16.29.36:588][  0]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 29
+[2020.06.11-16.29.36:588][  0]LogShaderCompilers: Display: Worker (18/61): shaders left to compile 28
+[2020.06.11-16.29.36:588][  0]LogShaderCompilers: Display: Worker (19/61): shaders left to compile 27
+[2020.06.11-16.29.36:588][  0]LogShaderCompilers: Display: Worker (27/61): shaders left to compile 26
+[2020.06.11-16.29.36:588][  0]LogShaderCompilers: Display: Worker (31/61): shaders left to compile 25
+[2020.06.11-16.29.36:588][  0]LogShaderCompilers: Display: Worker (33/61): shaders left to compile 24
+[2020.06.11-16.29.36:588][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.06.11-16.29.36:588][  0]LogLoad: (Engine Initialization) Total time: 17.18 seconds
+[2020.06.11-16.29.36:588][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.11-16.29.36:691][  0]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 23
+[2020.06.11-16.29.36:691][  0]LogShaderCompilers: Display: Worker (20/61): shaders left to compile 22
+[2020.06.11-16.29.36:691][  0]LogShaderCompilers: Display: Worker (37/61): shaders left to compile 21
+[2020.06.11-16.29.36:691][  0]LogShaderCompilers: Display: Worker (44/61): shaders left to compile 20
+[2020.06.11-16.29.36:691][  0]LogShaderCompilers: Display: Worker (51/61): shaders left to compile 19
+[2020.06.11-16.29.36:691][  0]LogShaderCompilers: Display: Worker (56/61): shaders left to compile 18
+[2020.06.11-16.29.36:691][  0]LogShaderCompilers: Display: Worker (57/61): shaders left to compile 17
+[2020.06.11-16.29.36:691][  0]LogShaderCompilers: Display: Worker (60/61): shaders left to compile 16
+[2020.06.11-16.29.36:691][  0]LogNiagaraEditor: GPU shader compile skipped. Id 1
+[2020.06.11-16.29.36:749][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.11-16.29.36:777][  0]LogShaderCompilers: Display: Worker (13/61): shaders left to compile 15
+[2020.06.11-16.29.36:777][  0]LogSlate: Took 0.003949 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.06.11-16.29.36:858][  0]LogShaderCompilers: Display: Worker (28/61): shaders left to compile 14
+[2020.06.11-16.29.36:858][  0]LogShaderCompilers: Display: Worker (43/61): shaders left to compile 13
+[2020.06.11-16.29.36:858][  0]LogSlate: Took 0.001531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.11-16.29.36:879][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Theo droulez ressources/OsmoseLOVE/Content/' took 0.19s
+[2020.06.11-16.29.37:048][  2]LogShaderCompilers: Display: Worker (42/61): shaders left to compile 12
+[2020.06.11-16.29.37:227][  4]LogShaderCompilers: Display: Worker (50/61): shaders left to compile 11
+[2020.06.11-16.29.37:228][  4]LogShaderCompilers: Display: Worker (30/61): shaders left to compile 10
+[2020.06.11-16.29.37:257][  4]LogShaderCompilers: Display: Worker (39/61): shaders left to compile 9
+[2020.06.11-16.29.37:273][  4]LogShaderCompilers: Display: Worker (15/61): shaders left to compile 8
+[2020.06.11-16.29.37:409][  5]LogShaderCompilers: Display: Worker (40/61): shaders left to compile 7
+[2020.06.11-16.29.37:568][  6]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 6
+[2020.06.11-16.29.37:568][  6]LogShaderCompilers: Display: Worker (26/61): shaders left to compile 5
+[2020.06.11-16.29.37:568][  6]LogShaderCompilers: Display: Worker (34/61): shaders left to compile 4
+[2020.06.11-16.29.37:568][  6]LogShaderCompilers: Display: Worker (58/61): shaders left to compile 3
+[2020.06.11-16.29.37:608][  6]LogAssetRegistry: Asset discovery search completed in 13.2478 seconds
+[2020.06.11-16.29.37:621][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2020.06.11-16.29.38:078][  7]LogShaderCompilers: Display: Worker (47/61): shaders left to compile 2
+[2020.06.11-16.29.38:078][  7]LogShaderCompilers: Display: Worker (54/61): shaders left to compile 1
+[2020.06.11-16.30.08:684][497]LogEditorViewport: Clicking on Actor (LMB): WindLaneBasic_C (WindLane)
+[2020.06.11-16.30.09:867][604]LogSlate: Took 0.000505 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.11-16.30.29:799][351]LogSlate: Took 0.000489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.11-16.30.29:825][351]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_Osmose/VFX/SH/M_FX_FresnelWindLane.M_FX_FresnelWindLane
+[2020.06.11-16.30.29:832][351]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.30.30:222][351]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.30.30:238][351]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.30.30:265][351]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.30.30:265][351]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.30.30:265][351]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.30.30:265][351]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.30.30:265][351]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.30.30:265][351]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.30.30:265][351]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.30.30:265][351]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.30.30:265][351]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.30.30:265][351]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.30.30:265][351]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.30.30:265][351]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.30.30:265][351]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.06.11-16.30.30:365][351]LogSlate: Took 0.000725 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.11-16.30.30:379][351]LogShaderCompilers: Display: Worker (13/61): shaders left to compile 4
+[2020.06.11-16.30.30:379][351]LogShaderCompilers: Display: Worker (14/61): shaders left to compile 3
+[2020.06.11-16.30.30:379][351]LogShaderCompilers: Display: Worker (15/61): shaders left to compile 2
+[2020.06.11-16.30.30:379][351]LogShaderCompilers: Display: Worker (16/61): shaders left to compile 1
+[2020.06.11-16.30.31:243][382]MaterialEditorStats: Base pass shader without light map: 82 instructions
+[2020.06.11-16.30.31:243][382]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2020.06.11-16.30.31:243][382]MaterialEditorStats: Texture samplers: 4/16
+[2020.06.11-16.30.38:660][174]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.30.38:676][174]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.30.38:712][175]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.30.38:713][175]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.30.38:713][175]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.30.38:713][175]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.30.38:713][175]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.30.38:713][175]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.30.38:713][175]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.30.38:713][175]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.30.38:713][175]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.30.38:713][175]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.30.38:713][175]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.30.38:713][175]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.30.39:305][212]MaterialEditorStats: Base pass shader without light map: 82 instructions
+[2020.06.11-16.30.39:305][212]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2020.06.11-16.30.39:305][212]MaterialEditorStats: Texture samplers: 4/16
+[2020.06.11-16.30.43:521][657]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.30.43:547][658]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.30.43:547][658]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.30.43:547][658]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.30.43:547][658]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.30.43:547][658]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.30.43:547][658]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.30.43:547][658]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.30.43:547][658]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.30.43:547][658]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.30.43:547][658]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.30.43:547][658]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.30.43:547][658]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.30.44:318][721]MaterialEditorStats: Base pass shader without light map: 82 instructions
+[2020.06.11-16.30.44:318][721]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2020.06.11-16.30.44:318][721]MaterialEditorStats: Texture samplers: 4/16
+[2020.06.11-16.30.45:196][791]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.30.45:237][792]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.30.45:237][792]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.30.45:237][792]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.30.45:237][792]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.30.45:237][792]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.30.45:237][792]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.30.45:237][792]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.30.45:237][792]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.30.45:237][792]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.30.45:237][792]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.30.45:237][792]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.30.45:237][792]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.30.45:845][828]MaterialEditorStats: Base pass shader without light map: 82 instructions
+[2020.06.11-16.30.45:846][828]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2020.06.11-16.30.45:846][828]MaterialEditorStats: Texture samplers: 4/16
+[2020.06.11-16.30.52:400][337]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.30.52:416][337]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.30.52:443][338]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.30.52:443][338]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.30.52:443][338]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.30.52:443][338]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.30.52:443][338]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.30.52:443][338]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.30.52:443][338]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.30.52:443][338]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.30.52:443][338]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.30.52:443][338]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.30.52:443][338]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.30.52:443][338]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.30.53:060][376]MaterialEditorStats: Base pass shader without light map: 82 instructions
+[2020.06.11-16.30.53:061][376]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2020.06.11-16.30.53:061][376]MaterialEditorStats: Texture samplers: 4/16
+[2020.06.11-16.30.53:385][400]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.30.53:409][400]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.30.53:409][400]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.30.53:409][400]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.30.53:409][400]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.30.53:409][400]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.30.53:409][400]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.30.53:409][400]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.30.53:409][400]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.30.53:409][400]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.30.53:409][400]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.30.53:409][400]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.30.53:409][400]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.30.54:629][526]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.30.54:654][527]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.30.54:654][527]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.30.54:654][527]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.30.54:654][527]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.30.54:654][527]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.30.54:654][527]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.30.54:654][527]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.30.54:654][527]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.30.54:654][527]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.30.54:654][527]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.30.54:655][527]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.30.54:655][527]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.30.55:287][579]MaterialEditorStats: Base pass shader without light map: 82 instructions
+[2020.06.11-16.30.55:287][579]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2020.06.11-16.30.55:288][579]MaterialEditorStats: Texture samplers: 4/16
+[2020.06.11-16.30.56:538][680]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.30.56:580][681]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.30.56:580][681]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.30.56:580][681]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.30.56:580][681]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.30.56:580][681]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.30.56:580][681]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.30.56:580][681]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.30.56:580][681]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.30.56:580][681]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.30.56:580][681]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.30.56:580][681]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.30.56:580][681]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.30.57:158][716]MaterialEditorStats: Base pass shader without light map: 82 instructions
+[2020.06.11-16.30.57:158][716]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2020.06.11-16.30.57:158][716]MaterialEditorStats: Texture samplers: 4/16
+[2020.06.11-16.31.04:768][337]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.31.04:796][338]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.31.04:796][338]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.31.04:796][338]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.31.04:796][338]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.31.04:796][338]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.31.04:796][338]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.31.04:796][338]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.31.04:796][338]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.31.04:796][338]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.31.04:796][338]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.31.04:796][338]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.31.04:796][338]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.31.05:403][376]MaterialEditorStats: Base pass shader without light map: 82 instructions
+[2020.06.11-16.31.05:403][376]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2020.06.11-16.31.05:403][376]MaterialEditorStats: Texture samplers: 4/16
+[2020.06.11-16.31.07:226][522]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.31.07:243][522]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.31.07:268][523]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.31.07:268][523]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.31.07:268][523]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.31.07:268][523]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.31.07:268][523]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.31.07:268][523]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.31.07:268][523]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.31.07:268][523]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.31.07:268][523]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.31.07:268][523]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.31.07:268][523]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.31.07:268][523]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.31.07:858][561]MaterialEditorStats: Base pass shader without light map: 82 instructions
+[2020.06.11-16.31.07:859][561]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2020.06.11-16.31.07:859][561]MaterialEditorStats: Texture samplers: 4/16
+[2020.06.11-16.31.09:020][652]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.31.09:037][652]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.31.09:061][653]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.31.09:061][653]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.31.09:061][653]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.31.09:061][653]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.31.09:061][653]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.31.09:061][653]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.31.09:061][653]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.31.09:061][653]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.31.09:061][653]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.31.09:061][653]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.31.09:061][653]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.31.09:061][653]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.31.09:657][692]MaterialEditorStats: Base pass shader without light map: 82 instructions
+[2020.06.11-16.31.09:657][692]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2020.06.11-16.31.09:657][692]MaterialEditorStats: Texture samplers: 4/16
+[2020.06.11-16.31.11:290][821]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.31.11:306][821]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.31.11:331][822]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.31.11:331][822]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.31.11:331][822]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.31.11:331][822]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.31.11:331][822]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.31.11:331][822]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.31.11:331][822]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.31.11:331][822]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.31.11:331][822]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.31.11:331][822]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.31.11:331][822]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.31.11:331][822]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.31.11:924][859]MaterialEditorStats: Base pass shader without light map: 82 instructions
+[2020.06.11-16.31.11:924][859]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2020.06.11-16.31.11:924][859]MaterialEditorStats: Texture samplers: 4/16
+[2020.06.11-16.31.13:486][978]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.31.13:508][979]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.31.13:508][979]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.31.13:508][979]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.31.13:508][979]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.31.13:508][979]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.31.13:508][979]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.31.13:508][979]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.31.13:508][979]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.31.13:508][979]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.31.13:508][979]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.31.13:508][979]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.31.13:508][979]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.31.13:557][984]LogMaterialEditor: Saving and Compiling material M_FX_FresnelWindLane
+[2020.06.11-16.31.14:191][984]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.31.14:241][984]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.31.14:241][984]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.31.14:241][984]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.31.14:241][984]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.31.14:241][984]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.31.14:241][984]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.31.14:241][984]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.31.14:241][984]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.31.14:241][984]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.31.14:241][984]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.31.14:241][984]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.31.14:241][984]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.31.14:257][984]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (13/61): shaders left to compile 22
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (14/61): shaders left to compile 21
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (15/61): shaders left to compile 20
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (16/61): shaders left to compile 19
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (17/61): shaders left to compile 18
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (18/61): shaders left to compile 17
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (19/61): shaders left to compile 16
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (20/61): shaders left to compile 15
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (21/61): shaders left to compile 14
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (22/61): shaders left to compile 13
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (23/61): shaders left to compile 12
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (24/61): shaders left to compile 11
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (25/61): shaders left to compile 10
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (26/61): shaders left to compile 9
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (27/61): shaders left to compile 8
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (28/61): shaders left to compile 7
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (29/61): shaders left to compile 6
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (30/61): shaders left to compile 5
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (31/61): shaders left to compile 4
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (32/61): shaders left to compile 3
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (33/61): shaders left to compile 2
+[2020.06.11-16.31.14:346][984]LogShaderCompilers: Display: Worker (34/61): shaders left to compile 1
+[2020.06.11-16.31.14:349][984]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.06.11-16.31.14:368][984]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.11-16.31.15:319][984]LogShaderCompilers: Display: Worker (35/61): shaders left to compile 2
+[2020.06.11-16.31.15:319][984]LogShaderCompilers: Display: Worker (36/61): shaders left to compile 1
+[2020.06.11-16.31.15:324][984]TextureStreamingBuild: Display: Compiling optional shaders took 0.971 seconds.
+[2020.06.11-16.31.15:383][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.06.11-16.31.15:589][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Osmose/VFX/SH/M_FX_FresnelWindLane" FILE="D:/Theo droulez ressources/OsmoseLOVE/Content/_Osmose/VFX/SH/M_FX_FresnelWindLane.uasset" SILENT=true
+[2020.06.11-16.31.15:605][984]LogSavePackage: Moving 'D:/Theo droulez ressources/OsmoseLOVE/Saved/M_FX_FresnelWindLane1A79C08348313C7D95D12E817BF534BA.tmp' to 'D:/Theo droulez ressources/OsmoseLOVE/Content/_Osmose/VFX/SH/M_FX_FresnelWindLane.uasset'
+[2020.06.11-16.31.15:629][984]AssetCheck: New page: Asset Save: M_FX_FresnelWindLane
+[2020.06.11-16.31.15:629][984]LogContentValidation: Display: Validating Material /Game/_Osmose/VFX/SH/M_FX_FresnelWindLane.M_FX_FresnelWindLane
+[2020.06.11-16.31.17:684][158]LogSlate: Window 'M_FX_FresnelWindLane' being destroyed
+[2020.06.11-16.31.22:399][582]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Osmose/BP_Class/Environment/Wind/WindLaneBasic.WindLaneBasic
+[2020.06.11-16.31.22:609][582]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.06.11-16.31.24:772][711]LogRenderer: Reallocating scene render targets to support 1208x1020 Format 10 NumSamples 1 (Frame:1).
+[2020.06.11-16.31.33:832][667]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Osmose/BP_Class/Environment/Wind/WindLanePart.WindLanePart
+[2020.06.11-16.31.49:322][254]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/_Osmose/VFX/SH/MI_FX_WindLaneBaseMat.MI_FX_WindLaneBaseMat
+[2020.06.11-16.31.49:541][254]LogRenderer: Reallocating scene render targets to support 1208x1040 Format 10 NumSamples 1 (Frame:1).
+[2020.06.11-16.32.12:804][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Osmose/VFX/SH/MI_FX_WindLaneBaseMat" FILE="D:/Theo droulez ressources/OsmoseLOVE/Content/_Osmose/VFX/SH/MI_FX_WindLaneBaseMat.uasset" SILENT=true
+[2020.06.11-16.32.12:896][880]LogUObjectHash: Compacting FUObjectHashTables data took   5.90ms
+[2020.06.11-16.32.12:913][880]TextureStreamingBuild: Display: Compiling optional shaders took 0.016 seconds.
+[2020.06.11-16.32.12:972][880]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2020.06.11-16.32.12:983][880]LogSavePackage: Moving 'D:/Theo droulez ressources/OsmoseLOVE/Saved/MI_FX_WindLaneBaseMatDE9A9C724D1D810ADA142D80F1794416.tmp' to 'D:/Theo droulez ressources/OsmoseLOVE/Content/_Osmose/VFX/SH/MI_FX_WindLaneBaseMat.uasset'
+[2020.06.11-16.32.13:002][880]AssetCheck: New page: Asset Save: MI_FX_WindLaneBaseMat
+[2020.06.11-16.32.13:002][880]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/_Osmose/VFX/SH/MI_FX_WindLaneBaseMat.MI_FX_WindLaneBaseMat
+[2020.06.11-16.32.20:671][778]LogSlate: Window 'MI_FX_WindLaneBaseMat' being destroyed
+[2020.06.11-16.32.33:818][340]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.32.33:836][340]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.32.33:855][341]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.32.33:855][341]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.32.33:855][341]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.32.33:855][341]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.32.33:855][341]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.32.33:855][341]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.32.33:855][341]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.32.33:855][341]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.32.33:855][341]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.32.33:855][341]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.32.33:855][341]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.32.33:855][341]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.32.34:714][437]MaterialEditorStats: Base pass shader without light map: 82 instructions
+[2020.06.11-16.32.34:714][437]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2020.06.11-16.32.34:714][437]MaterialEditorStats: Texture samplers: 4/16
+[2020.06.11-16.32.35:311][504]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.32.35:328][505]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.32.35:328][505]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.32.35:328][505]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.32.35:328][505]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.32.35:328][505]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.32.35:328][505]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.32.35:328][505]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.32.35:328][505]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.32.35:328][505]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.32.35:328][505]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.32.35:328][505]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.32.35:328][505]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.32.35:403][514]LogMaterialEditor: Saving and Compiling material M_FX_FresnelWindLane
+[2020.06.11-16.32.36:039][514]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.32.36:077][514]LogShaderCompilers: Display: Worker (1/61): shaders left to compile 12
+[2020.06.11-16.32.36:077][514]LogShaderCompilers: Display: Worker (2/61): shaders left to compile 11
+[2020.06.11-16.32.36:077][514]LogShaderCompilers: Display: Worker (3/61): shaders left to compile 10
+[2020.06.11-16.32.36:077][514]LogShaderCompilers: Display: Worker (4/61): shaders left to compile 9
+[2020.06.11-16.32.36:077][514]LogShaderCompilers: Display: Worker (5/61): shaders left to compile 8
+[2020.06.11-16.32.36:077][514]LogShaderCompilers: Display: Worker (6/61): shaders left to compile 7
+[2020.06.11-16.32.36:077][514]LogShaderCompilers: Display: Worker (7/61): shaders left to compile 6
+[2020.06.11-16.32.36:077][514]LogShaderCompilers: Display: Worker (8/61): shaders left to compile 5
+[2020.06.11-16.32.36:077][514]LogShaderCompilers: Display: Worker (9/61): shaders left to compile 4
+[2020.06.11-16.32.36:077][514]LogShaderCompilers: Display: Worker (10/61): shaders left to compile 3
+[2020.06.11-16.32.36:077][514]LogShaderCompilers: Display: Worker (11/61): shaders left to compile 2
+[2020.06.11-16.32.36:077][514]LogShaderCompilers: Display: Worker (12/61): shaders left to compile 1
+[2020.06.11-16.32.36:090][514]LogMaterial: Display: Missing cached shader map for material M_FX_FresnelWindLane, compiling. 
+[2020.06.11-16.32.36:195][514]LogShaderCompilers: Display: Worker (13/61): shaders left to compile 22
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (14/61): shaders left to compile 21
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (15/61): shaders left to compile 20
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (16/61): shaders left to compile 19
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (17/61): shaders left to compile 18
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (18/61): shaders left to compile 17
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (19/61): shaders left to compile 16
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (20/61): shaders left to compile 15
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (21/61): shaders left to compile 14
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (22/61): shaders left to compile 13
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (23/61): shaders left to compile 12
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (24/61): shaders left to compile 11
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (25/61): shaders left to compile 10
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (26/61): shaders left to compile 9
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (27/61): shaders left to compile 8
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (28/61): shaders left to compile 7
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (29/61): shaders left to compile 6
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (30/61): shaders left to compile 5
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (31/61): shaders left to compile 4
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (32/61): shaders left to compile 3
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (33/61): shaders left to compile 2
+[2020.06.11-16.32.36:196][514]LogShaderCompilers: Display: Worker (34/61): shaders left to compile 1
+[2020.06.11-16.32.36:196][514]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2020.06.11-16.32.36:217][514]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.11-16.32.37:147][514]LogShaderCompilers: Display: Worker (35/61): shaders left to compile 2
+[2020.06.11-16.32.37:147][514]LogShaderCompilers: Display: Worker (36/61): shaders left to compile 1
+[2020.06.11-16.32.37:150][514]TextureStreamingBuild: Display: Compiling optional shaders took 0.949 seconds.
+[2020.06.11-16.32.37:205][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.06.11-16.32.37:364][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Osmose/VFX/SH/M_FX_FresnelWindLane" FILE="D:/Theo droulez ressources/OsmoseLOVE/Content/_Osmose/VFX/SH/M_FX_FresnelWindLane.uasset" SILENT=true
+[2020.06.11-16.32.37:378][514]LogSavePackage: Moving 'D:/Theo droulez ressources/OsmoseLOVE/Saved/M_FX_FresnelWindLaneC31FDE604BF317093296E0B8D10D1D5E.tmp' to 'D:/Theo droulez ressources/OsmoseLOVE/Content/_Osmose/VFX/SH/M_FX_FresnelWindLane.uasset'
+[2020.06.11-16.32.37:392][514]AssetCheck: New page: Asset Save: M_FX_FresnelWindLane
+[2020.06.11-16.32.37:392][514]LogContentValidation: Display: Validating Material /Game/_Osmose/VFX/SH/M_FX_FresnelWindLane.M_FX_FresnelWindLane
+>>>>>>> 780d8d7e5c3f28f3f8fb1e9c018d539965d3efa1
